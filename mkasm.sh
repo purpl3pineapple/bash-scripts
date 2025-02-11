@@ -8,6 +8,6 @@ if [ -z "$1" ]; then
         exit 1
 fi
 
-printf "\t.intel_syntax\tnoprefix\n\t.global\t_start\n\n_start:\n" >> "$1.asm"
+printf "\t.intel_syntax\tnoprefix\n\t.global\t_start\n\n_start:\n" > "$1.asm"
 
 exit 0
