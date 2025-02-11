@@ -3,7 +3,7 @@
 # Simple script to create a new assembly file
 # Includes Intel syntax header
 
-if [ -z "$1" ]
+if [ -z "$1" ]; then
         echo "Usage: mkasm [FILENAME]"
         exit 1
 fi
