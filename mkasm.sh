@@ -4,7 +4,7 @@
 # Includes Intel syntax header
 
 if [ -z "$1" ]; then
-        echo "Usage: mkasm [NAME]"
+        echo "Usage: ./mkasm [NAME]"
         exit 1
 fi
 
